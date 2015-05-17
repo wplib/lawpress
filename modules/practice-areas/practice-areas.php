@@ -23,7 +23,6 @@ class LawPress_Practice_Areas extends WPLib_Post_Module_Base {
 			'labels'        => $labels,
 			'public'        => true,
 			'menu_icon'     => 'dashicons-groups',
-			'menu_position' => 32,
 			'supports'      => array(
 				'title',
 				'editor',

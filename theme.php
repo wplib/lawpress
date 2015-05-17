@@ -9,6 +9,10 @@ class LawPress extends WPLib_Theme_Base {
 
 		self::register_module( 'people' );
 		self::register_module( 'practice-areas' );
+		self::register_module( 'case-studies' );
+		self::register_module( 'news-items' );
+		self::register_module( 'events' );
+		self::register_module( 'publications' );
 
 	}
 
