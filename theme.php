@@ -7,12 +7,12 @@ class LawPress extends WPLib_Theme_Base {
 
 	static function on_load() {
 
-		self::register_module( 'people' );
-		self::register_module( 'practice-areas' );
-		self::register_module( 'case-studies' );
-		self::register_module( 'news-items' );
-		self::register_module( 'events' );
-		self::register_module( 'publications' );
+		self::register_module( 'post-type-person' );
+		self::register_module( 'post-type-practice-area' );
+		self::register_module( 'post-type-case-study' );
+		self::register_module( 'post-type-news-item' );
+		self::register_module( 'post-type-event' );
+		self::register_module( 'post-type-publication' );
 
 	}
 
