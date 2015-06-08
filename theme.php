@@ -14,6 +14,8 @@ class LawPress extends WPLib_Theme_Base {
 		self::register_module( 'post-type-event' );
 		self::register_module( 'post-type-publication' );
 
+		self::register_module( 'taxonomy-position' );
+
 	}
 
 }
