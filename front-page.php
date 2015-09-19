@@ -21,6 +21,9 @@ $theme->the_header_html();
 		?><li><?php $person->the_title_link(); ?></li><?php
 
 	}
+
+	//LawPress_People::get_list()->the_template( 'person-card' );
+
 ?>
 </ul>
 
