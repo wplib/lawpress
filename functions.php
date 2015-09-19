@@ -4,4 +4,4 @@ require( __DIR__ . '/wplib-app/lawpress.php' );
 
 LawPress::initialize();
 
-require( __DIR__ . '/theme.php' );
+require( __DIR__ . '/wplib-theme.php' );
