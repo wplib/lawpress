@@ -11,7 +11,7 @@ $theme->the_header_html();
 <p>LawPress is a demo application for <a href="http://wplib.org" target="_blank">WPLib</a>.</p>
 
 <h2><?php _e( 'Lawyers' ); ?></h2>
-<ul id=""lawyer-list">
+<ul id="lawyer-list">
 <?php
 	$people = LawPress_People::get_list();
 	foreach( $people as $person ) {
